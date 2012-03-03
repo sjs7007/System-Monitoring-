@@ -10,6 +10,5 @@ Core4=`sensors  | grep Core\ 3: | cut -d + -f2 | cut -d . -f1`
 echo $Core1 $Core2 $Core3 $Core4 >> $filename
 echo $Core1 $Core2 $Core3 $Core4 
 escape=' '
-
-lee=$Core1$escape$Core2$escape$Core3$escape$Core4
+sleep 1
 done
